@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f0">
+  <title>Contact | Lynh Tran Wedding Design &amp; Planning</title>
+  <meta name="description" content="Start dreaming up your celebration. Contact details are coming soon; prepare a private inquiry draft without sending any information.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header container">
+    <a class="brand" href="index.html" aria-label="Lynh Tran home"><span class="brand-name">lynh tran.</span><span class="brand-description">Wedding design &amp; planning</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav"><span class="menu-label">Menu</span><span class="menu-icon" aria-hidden="true"></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a class="nav-contact" href="contact.html" aria-current="page">Let’s make something beautiful <span aria-hidden="true">↗</span></a></nav>
+  </header>
+  <main id="main">
+    <section class="page-intro container" aria-labelledby="contact-title"><p class="eyebrow">Every lovely thing starts somewhere</p><h1 id="contact-title">Tell me what<br><em>you’re dreaming.</em></h1><p class="body-copy">The big picture, the little details, or just a feeling.<br>Make a little room for the possibilities.</p></section>
+    <div class="contact-layout container">
+      <aside class="contact-aside" aria-labelledby="contact-aside-title"><p class="eyebrow">Your story is a lovely starting point</p><h2 id="contact-aside-title">No perfect plan<br><em>required.</em></h2><p class="body-copy">Use these prompts to gather your thoughts. A date is optional, a venue can be a daydream, and “we’re still figuring it out” is a perfectly good place to start.</p><div class="contact-status"><p class="eyebrow">Email / placeholder</p><p>Email address coming soon</p></div><div class="contact-photo"><img src="assets/images/wedding-flowers.jpg" alt="A softly gathered wedding bouquet with natural greenery" width="1200" height="1800"></div><p class="photo-disclaimer">A little visual inspiration, courtesy of Unsplash.</p></aside>
+      <div class="inquiry-panel">
+        <div class="form-notice" id="form-notice"><strong>A little note: inquiries aren’t connected yet.</strong><p>This is a draft tool, not a live contact form. Nothing you enter is sent to Lynh or saved by this site. You can copy or download your draft to keep for later.</p></div>
+        <noscript><p class="noscript-note">JavaScript is needed to prepare a draft. Inquiries are not connected, so please keep your notes on your own device for now.</p></noscript>
+        <form id="inquiry-form" aria-describedby="form-notice" hidden>
+          <div class="form-grid">
+            <div class="field field-full"><label for="name">Your name(s) <span class="optional">(required)</span></label><input id="name" name="name" type="text" autocomplete="name" placeholder="The names at the heart of it all" required maxlength="160"></div>
+            <div class="field field-full"><label for="email">Your email <span class="optional">(required, for your draft only)</span></label><input id="email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required maxlength="254"></div>
+            <div class="field"><label for="date">Wedding date <span class="optional">(optional)</span></label><input id="date" name="date" type="date"></div>
+            <div class="field"><label for="location">Location or venue <span class="optional">(optional)</span></label><input id="location" name="location" type="text" placeholder="Somewhere lovely…" maxlength="200"></div>
+            <div class="field field-full"><label for="service">What kind of support are you imagining?</label><select id="service" name="service"><option value="Still exploring">I’m still exploring</option><option value="Full-service planning">Full-service planning</option><option value="Wedding design">Wedding design</option><option value="Wedding coordination">Wedding coordination</option></select></div>
+            <div class="field field-full"><label for="message">A little about your vision <span class="optional">(required)</span></label><textarea id="message" name="message" placeholder="How do you want it to feel? What matters most to you? Tell me a little about your kind of beautiful." required minlength="10" maxlength="5000"></textarea></div>
+          </div>
+          <p class="form-help">Your notes stay in this page until you leave or refresh. Copy or save your draft if you’d like to keep it. This does not reserve a date or send an inquiry.</p>
+          <button class="button" type="submit">Create an inquiry draft <span aria-hidden="true">↗</span></button>
+        </form>
+        <section class="draft" id="inquiry-draft" aria-labelledby="draft-title" tabindex="-1" hidden>
+          <h3 id="draft-title">Your draft, ready to keep.</h3>
+          <p>Nothing has been sent. Save this for when contact details are available.</p>
+          <pre id="draft-text"></pre>
+          <div class="draft-actions"><button class="button button-outline" id="copy-draft" type="button">Copy draft <span aria-hidden="true">↗</span></button><button class="button button-outline" id="download-draft" type="button">Save as text <span aria-hidden="true">↓</span></button></div>
+          <p class="draft-status" id="draft-status" role="status" aria-live="polite"></p>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><div class="footer-top"><a class="brand" href="index.html" aria-label="Lynh Tran home"><span class="brand-name">lynh tran.</span><span class="brand-description">Wedding design &amp; planning</span></a><p class="footer-note">Rooted in nature. Made for you.</p><nav class="footer-nav" aria-label="Footer navigation"><a href="about.html">About</a><a href="services.html">Services</a><a href="contact.html" aria-current="page">Contact</a></nav></div><div class="footer-bottom"><p>© <span data-year>2026</span> Lynh Tran. Thoughtfully put together.</p><p>Inspiration imagery · <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></p></div></div></footer>
+  <noscript><style>.menu-toggle{display:none}@media(max-width:760px){.site-header{height:auto;min-height:94px;flex-wrap:wrap;padding-block:20px}.site-nav{position:static;display:flex;flex-direction:row;flex-wrap:wrap;gap:20px;padding:0;background:none}.site-nav a{font:12px var(--sans)}.site-nav .nav-contact{font:12px var(--sans);padding:10px;margin:0}}</style></noscript>
+</body>
+</html>
